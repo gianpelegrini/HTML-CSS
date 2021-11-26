@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@500&family=Montserrat:wght@200&family=Roboto:wght@100;400&display=swap');
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.texto1{
+    color: black;
+    font-weight: bold;
+}
+p {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    text-decoration: none;
+    font-family: 'IBM Plex Serif', serif;
+}
+h2 {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    color: rgba(64,176,148,255);
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+nav a {
+    text-decoration: none;
+    font-family: 'Arial';
+    font-weight: bold;
+    color:rgba(8, 173, 173, 0.835);
+    font-size: 25px;
+    cursor: pointer;
+    width: auto;
+    margin-left: 180px;
+}
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Roboto';
+    color:black;
+    padding: 1px;
+    margin: 20px;
+    font-size: 20px;
+}
+button {
+    border: none;
+    margin: 20px 80px 0 0px;
+    background-color: rgba(64,176,148,255);
+}
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+body {
+    background-image: url('image.png');
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+nav {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+input {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px 20px 10px 50px;
+    border-radius: 20px;
+    box-shadow: -2px 3px 4px grey;
+    background-image: url(email.png);
+    background-repeat: no-repeat;
+    background-size: 33px;
+    background-position:10px;
+}
+
+input:focus{
+    outline: none !important;
+}
+.txt1 {
+    margin: 80px 0 0 200px;
+    width: 35%;
+}
+a button{
+    color: white;
+    text-decoration: none;
+    padding: 12px 25px;
+    border-radius: 15px;
+    font-size: 15px;
+    cursor:pointer;
+    margin-left: -180px;
+    transition: background 0.3s;
+}
+
+a button:hover{
+    background-color: rgba(80,200,155,255) ;
+}
+
+a button:active{
+    background-color:rgba(8, 173, 173, 0.835);
+}
+
+.btn {
+    color: white;
+    margin-left: -50px;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-shadow: 0px 3px 4px grey;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Apr1 {
+    width: 20%;
+    height: 300px;
+    text-align: center;
+    box-shadow: 0px 3px 7px grey;
+    margin: 50px 0 0 0;
+    transition: 0.5s;
+    background-color: white;
+}
+.Apr1:hover{
+        transform: scale(1.05);
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.Apr1 img{
+    margin-top: 50px;
+}
+
+.Apr1 p {
+    padding: 20px;
+    text-align: center;
+}
+.Apr2 {
+    width: 100%;
+    text-align: center;
+}
+.container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 200px;
+}
+.modal {
+    position: fixed;
+    border: 7px solid rgba(15, 138, 72, 0.52);
+    border-radius: 30px;
+    top:0px;
+    left: 0px;
+    height: 20vw;
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 35vw;
+    text-align: center;
+    box-shadow: 0 10px 10px grey;
+    display: none;
+    background-color: rgba(222,270,242,255);
+}
+
+.modal-content {
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 600px;
+}
+.modal-content button{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+    margin-top: 5%;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-end;
+    background-image: url('image2.png');
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+
+.title3 {
+    text-align: center;
+    margin-right: 40px;
+    
+}
+.blocos {
+    box-shadow: 0 3px 5px grey;
+    margin: 33px 0 30px 10px;
+    padding: 3px;
+    width: 35vw;
+    display: flex;
+    background-color: white;
+    
+}
+.conjBloco{
+    margin-top: 20px;
+}
+.blocos p{
+    font-weight: bold;
+}
+.Apr2 h2 {
+    font-size: 20px;
+    margin: 0;
+    margin-top: 100px;
+}
+.Apr2 h1 {
+    font-size: 30px;
+    margin: 0;
+}
+.title3 h2 {
+    font-size: 20px;
+    margin:5px;
+}
+.title3 h1 {
+    font-size: 30px;
+    margin: 0;
+}
+.menu button {
+    border-radius: 60px;
+}
