@@ -104,4 +104,9 @@
     .blocos {
         width: auto !important;
     }
+    .modal {
+        height: auto !important;
+        width: 60vw !important;
+        margin-left: 25vw !important;
+    }
 }

@@ -162,10 +162,10 @@ a button:active{
     border-radius: 30px;
     top:0px;
     left: 0px;
-    height: 20vw;
-    width: 30vw;
+    height: 45%;
+    width: 50%;
     margin-top: 5%;
-    margin-left: 35vw;
+    margin-left: 25%;
     text-align: center;
     box-shadow: 0 10px 10px grey;
     display: none;
