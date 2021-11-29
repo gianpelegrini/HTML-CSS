@@ -109,4 +109,8 @@
         width: 60vw !important;
         margin-left: 25vw !important;
     }
+    .txt1 {
+        width: 100%;
+        margin: 40px !important;
+    }
 }
