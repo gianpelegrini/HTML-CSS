@@ -17,3 +17,12 @@ function closeModal(mn){
     modal.style.display='None';
     document.body.overflow = 'auto';
 }
+
+const btnResp = document.getElementById('btn-resp');
+
+function toggleMenu(){
+   const nav = document.getElementById('nav');
+    nav.classList.toggle('active');
+}
+
+btnResp.addEventListener('click', toggleMenu);
