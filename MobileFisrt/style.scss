@@ -1,0 +1,134 @@
+@import url(signinpage.scss);
+
+$primaryColor: rgba(255, 255, 255, 0.705);
+
+@mixin styleButton {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px 212px 14px 32px;
+
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+}
+
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    @include flexCenter();
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: $primaryColor;
+
+    background-image: url(images/image2.svg), url(images/image3.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top, bottom right;
+    background-size: 107vw, 60vw;
+    
+    p {
+            font-family: 'Roboto', sans-serif;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 45px;
+            line-height: 53px;
+            margin: 0 0 35px 30px;
+            color: black;
+    }
+    h1 {
+        width: 180px;
+        height: 106px;
+        padding: 50px;
+
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 45px;
+        line-height: 53px;
+        color: white;
+    }
+    header {
+        display: flex;
+        flex-direction: row;
+        width: 40vh;
+        height: 270px;
+        justify-content: space-evenly;
+        
+        .hTitle {
+                .fTitle {
+                    img {
+                        width: 253px;
+                        padding: 0;
+                        margin-left: -100px !important;
+                    }
+                }
+            }
+        }
+        
+        
+    }
+    main {
+        .CamposCadastro {
+            input {
+                @include styleButton();
+                width: 82vw;
+                padding: 14px 150px 14px 32px;
+                align-items: flex-start;
+                margin: 16px 34px;
+                font-size: 18px;
+            }
+        }
+
+        .SignUp {
+
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-top: 50px;
+            button {
+                border: none;
+                background-color: white;
+                font-size: 30px;
+                font-weight: bold;
+            }
+
+            img {
+                width: 45px;
+                margin-left: 13px;
+                margin-right: 47px;
+            }
+            
+        }
+        
+    }
+    footer {
+        width: 100%;
+
+        .SignIn {
+            display: flex;
+            justify-content: flex-end;
+            
+            a {
+                font-size: 20px; 
+                color: rgb(255, 255, 255);
+                margin: 40px 40px 0 40px;
+            }
+        }
+    }
+
+
+
+

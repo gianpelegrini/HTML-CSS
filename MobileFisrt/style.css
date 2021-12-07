@@ -1,0 +1,142 @@
+@import url(signinpage.scss);
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.705);
+  background-image: url(images/image2.svg), url(images/image3.svg);
+  background-repeat: no-repeat, no-repeat;
+  background-position: top, bottom right;
+  background-size: 107vw, 60vw;
+}
+
+body p {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 53px;
+  margin: 0 0 35px 30px;
+  color: black;
+}
+
+body h1 {
+  width: 180px;
+  height: 106px;
+  padding: 50px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: white;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 40vh;
+  height: 270px;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+body header .hTitle .fTitle img {
+  width: 253px;
+  padding: 0;
+  margin-left: -100px !important;
+}
+
+main .CamposCadastro input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 14px 212px 14px 32px;
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 15px;
+  width: 82vw;
+  padding: 14px 150px 14px 32px;
+  align-items: flex-start;
+  margin: 16px 34px;
+  font-size: 18px;
+}
+
+main .SignUp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin-top: 50px;
+}
+
+main .SignUp button {
+  border: none;
+  background-color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+main .SignUp img {
+  width: 45px;
+  margin-left: 13px;
+  margin-right: 47px;
+}
+
+footer {
+  width: 100%;
+}
+
+footer .SignIn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+footer .SignIn a {
+  font-size: 20px;
+  color: white;
+  margin: 40px 40px 0 40px;
+}
+/*# sourceMappingURL=style.css.map */
