@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script type="text/javascript" src="script.js"></script>
     <title>Projeto Mobile First</title>
 </head>
+
 <body>
     <header class="hTitle">
         <div class="Title">
@@ -17,28 +18,30 @@
             <img src="images/Creativity-pana 1.png" class="imgTitle">
         </div>
     </header>
-    <main>
-        <div class="Cadastro">
+    <main>  
+        <div id="form" class="Cadastro">
             <div id="inputName" class="CamposCadastro">
-                <input type="text" class="Nome" placeholder="Name">
+                <input type="text" class="Nome" placeholder="Name" name="name">
             </div>
             <div id="inputEmail" class="CamposCadastro">
-                <input type="email" class="Email" placeholder="Email">
+                <input type="email" class="Email" placeholder="Email" name="email">
             </div>
             <div id="inputSenha" class="CamposCadastro">
-                <input type="password" class="Senha" placeholder="Password">
+                <input type="password" class="Senha" placeholder="Password" name="password">
+            </div>
+            <div class="SignUp">
+                <button onclick="handleSubmit()">Sign Up <img src="images/image1.svg"></button>
             </div>
         </div>
 
-        <div class="SignUp">
-            <button>Sign Up</button>
-            <img src="images/image1.svg">
-        </div>
+
     </main>
     <footer>
         <div class="SignIn">
-            <a href="#" onclick="window.location.href = 'signinpage.html';">Sign In</a>
+            <a href="signinpage.html">Sign In</a>
         </div>
     </footer>
+    <script type="text/javascript" src="script.js"></script>
 </body>
+
 </html>
